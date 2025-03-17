@@ -1,0 +1,56 @@
+.imgcontainer {
+    justify-content: center;
+}
+
+.imgcontainer figure {
+    width: fit-content;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+.imgcontainer figcaption {
+    background-color: rgb(95, 0, 95);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.skillset p {
+    background-color: rgb(95, 0, 95);
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.skillset p:nth-of-type(2) {
+    border-radius: 0 0 10px 10px;
+}
+
+.skillset {
+    overflow-y: auto;
+}
+
+.text {
+    text-align: left;
+    padding-left: 50px;
+}
+
+.text p {
+    padding: 5px;
+    background-color: transparent;
+}
+
+@media (max-width: 864px){
+    .text {
+        text-align: left;
+        padding-left: 0;
+    }
+
+    .imgcontainer figcaption {
+        padding: 5px;
+    }
+
+    .imgcontainer figure img {
+        width: 80vw;
+    }
+}
